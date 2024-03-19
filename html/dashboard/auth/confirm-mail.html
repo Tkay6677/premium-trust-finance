@@ -65,20 +65,21 @@
     <script>
       // Get the URL parameters
       const urlParams = new URLSearchParams(window.location.search);
+
   
       // Get the value of the 'state' parameter
-  const stateValue = urlParams.get('email');
+      const stateValue = urlParams.get('email');
 
-  const element = document.getElementById("email");
-  element.innerText = stateValue
-  // Output the value to the console
-  console.log('State value:', stateValue);
+      const element = document.getElementById("email");
+      element.innerText = stateValue
+      // Output the value to the console
+      console.log('State value:', stateValue);
   
-  if (stateValue !== null) {
-    sendMail();
-  }
+      if (stateValue !== null) {
+        sendMail();
+      }
   
-  function sendMail() {
+      function sendMail() {
           (function() {
               emailjs.init("oWSavVXBL8t6f0W-i");
           })();

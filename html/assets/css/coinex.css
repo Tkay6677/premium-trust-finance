@@ -1172,7 +1172,12 @@ progress {
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 33.33333%; }
+    width: 33.3333%; }
+    .col-lg-4i {
+      -webkit-flex: 0 0 auto;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
+      width: 100%; }
   .col-lg-5 {
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
@@ -1192,7 +1197,7 @@ progress {
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 66.66667%; }
+    width: 100%; }
   .col-lg-9 {
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
@@ -4221,6 +4226,7 @@ textarea.form-control-lg {
 .pagination-sm .page-item:last-child .page-link {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem; }
+
 
 .badge {
   display: inline-block;
