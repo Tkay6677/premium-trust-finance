@@ -347,6 +347,7 @@ body.active { overflow: hidden; }
   gap: 5px;
 }
 
+
 .nav-toggle-btn .line {
   width: 26px;
   height: 3px;
@@ -405,7 +406,7 @@ body.active { overflow: hidden; }
   #HERO
 \*-----------------------------------*/
 
-.hero { padding-block: 150px 140px; }
+.hero { padding-block: 7rem 7rem; }
 
 .hero-content { margin-block-end: 80px; }
 
@@ -828,6 +829,22 @@ address.footer-contact-link { max-width: 30ch; }
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media (max-width: 575px) {
+.logo, .btn-outline{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+}
+
+ @media (max-width: 320px) {
+  .btn-outline{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+} */
+
+
 /**
  * responsive for larger than 575px screen
  */
@@ -860,8 +877,7 @@ address.footer-contact-link { max-width: 30ch; }
     width: 100%;
     margin-inline: auto;
   }
-
-
+    
 
   /**
    * HERO
